@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <LINK REL=StyleSheet href="estilos.css" TYPE="text/css" MEDIA=screen> <!-- Hosja de estios personal-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Estilos de fonts-->
+    <LINK REL=StyleSheet href="Styles/index.css" TYPE="text/css" MEDIA=screen> <!-- Hosja de estios personal-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Estilos de fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Michael Rivero Jauregui</title>
 </head>
 <body>
     <header>
-        <nav >
-            <div >
-                <img  src="IMG/Michael.jpg" alt="Michael Rivero Jauregui">
+        
+        <nav class="nav-bar">
+            <!-- avatar -->
+            <div  >
+                <img class="avatar1" src="IMG/M2.jpeg" alt="Michael Rivero Jauregui">
             </div>
             <ul class="nav-menu" id="menu-bar">
                 <li><a id="m-home" href="#home">Inicio</a></li>
@@ -25,27 +27,30 @@
             </ul>
         </nav>
     </header>
-    <main id="home">
+        <main id="home">
         <section>
             <div >
+                <div>
+                    <img class="banner" src="img/Banner.jpeg" alt="">
+                </div> 
                 <div >
                     <span >
-                        <img  src="IMG/Michael.jpg" alt="Michael Rivero Jauregui">
+                        <img class="avatar2" src="IMG/Michael.jpg" alt="Michael Rivero Jauregui">
                     </span>
                     <div>
-                        <div><span ><a href="https://github.com/Michael-Rivero" target="_blank"><img src="IMG/github.png"alt="github"></a></span></div>
-                        <div><span ><a href="#" target="_blank"><img src="IMG/linkedin.png" alt="linkedin"></a></span></div>
-                        <div><span ><a href="#" target="_blank"><img src="IMG/Stack.png" alt="stack overflow"></a></span></div>
+                        <div class="redes"><span ><a href="https://github.com/Michael-Rivero" target="_blank"><img src="IMG/github.png"alt="github"></a></span></div>
+                        <div class="redes"><span ><a href="#" target="_blank"><img src="IMG/linkedin.png" alt="linkedin"></a></span></div>
+                        <div class="redes"><span ><a href="#" target="_blank"><img src="IMG/Stack.png" alt="stack overflow"></a></span></div>
                     </div>
                 </div>
                 <div >
-                    <h1 > Michael Rivero Jauregui</h1> 
+                    <h1 >Michael Rivero Jauregui</h1> 
                     <p >Developer Frontend</p>
                 </div>
                 <div>
-                    <h2>It's me</h2>
+                    <h2 class="titulo">It's me h2</h2>
                     <p>
-                        Cubano, formado em Informatica no meu pais natal Cuba.
+                        Cubano, formado em no meu pais natal Cuba.
                     </p>
                 </div>
             </div>
@@ -54,9 +59,9 @@
     <!-- Fin main -->
     <!--Inicio formacao-->
     <div id="formacao">
-        <section>
+        <section class="content">
             <h2>Formação</h2>
-            <div>
+            <div >
                 <div> </div>
                 <div>
                     <p>10/2022-Atualmente</p>
@@ -82,11 +87,13 @@
             </div>
         </section>
     </div>
+    let message = "ola mundo";
+    // console.log ('message');
     <!-- Fin formacao -->
     <!--Inicio Experiencia-->
     <div id="know">
         <section>
-            <h2>Experiência</h2>
+            <h2 class="titulo2">Experiência</h2>
             <div>
                 <div > </div>
                 <div>
@@ -100,6 +107,7 @@
     <!-- Fin Experiencia -->
     <!--Inicio projetos-->
     <div id="project">
+        <!-- card -->
         <div>
             <h2>Projetos</h2>
             <div id="projetos">
@@ -125,9 +133,9 @@
                         </div>
                         <div>
                             <!-- <div class="info_contato contact-red "> -->
-                                <div><p><a href="https:/wa.me/5511984729915" target="_blank"><img src="IMG/whatsapp.png" alt="WhatsApp"></a></p></div>
-                                <div><p><a href="https://www.facebook.com/michael.riverojauregui/" target="_blank"><img src="IMG/facebook.png" alt="Facebook"></a></p></div>
-                                <div><p><a href="https://www.instagram.com/michael_rivero_jauregui/" target="_blank"><img src="IMG/Instagram.png" alt="Intagram"></a></p></div>
+                                <div class="redes"><p><a href="https:/wa.me/5511984729915" target="_blank"><img src="IMG/whatsapp.png" alt="WhatsApp"></a></p></div>
+                                <div class="redes"><p><a href="https://www.facebook.com/michael.riverojauregui/" target="_blank"><img src="IMG/facebook.png" alt="Facebook"></a></p></div>
+                                <div class="redes"><p><a href="https://www.instagram.com/michael_rivero_jauregui/" target="_blank"><img src="IMG/Instagram.png" alt="Intagram"></a></p></div>
                             <!-- </div> -->
                         </div>
                     </div>
